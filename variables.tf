@@ -1,6 +1,6 @@
 variable "bucket_name" {
   description = "Name of bucket."
-  default = "bucket-teste"
+  default = "bucket-teste-rafael"
 }
 
 variable "resource_group_name" {
