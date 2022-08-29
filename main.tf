@@ -6,7 +6,7 @@ resource "ibm_resource_instance" "cos_instance" {
   name              = "cos-instance-rafael"
   resource_group_id = data.ibm_resource_group.cos_group.id
   service           = "cloud-object-storage"
-  plan              = "standart"
+  plan              = var.cos_plan
   location          = "global"
 }
 

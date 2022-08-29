@@ -21,6 +21,12 @@ variable "storage_class" {
   default = "standard"
 }
 
+variable "cos_plan" {
+  description = "Choose 'lite' or 'standart'."
+  default = "standart"
+  
+}
+
 variable "ibmcloud_api_key" {
   description = "Enter your API Key."
 }
