@@ -23,7 +23,7 @@ variable "storage_class" {
 
 variable "cos_plan" {
   description = "Choose 'lite' or 'standart'."
-  default = "standart"
+  default = "standard"
   
 }
 
