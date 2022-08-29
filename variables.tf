@@ -13,3 +13,5 @@ variable "region_location" {
 variable "storage_class" {
   default = "standard"
 }
+
+variable "ibmcloud_api_key" {}
