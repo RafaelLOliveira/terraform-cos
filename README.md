@@ -1,1 +1,1 @@
-# Proviosing Cloud Object Storage on IBM Cloud.
+# Provisioning Cloud Object Storage on IBM Cloud.
