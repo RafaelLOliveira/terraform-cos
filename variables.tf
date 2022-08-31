@@ -30,3 +30,8 @@ variable "cos_plan" {
 variable "ibmcloud_api_key" {
   description = "Enter your API Key."
 }
+
+//teste pipeline
+variable "ibmcloud_region" {
+  default =  "us-south"  
+}
