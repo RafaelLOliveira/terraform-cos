@@ -32,7 +32,6 @@ variable "ibmcloud_api_key" {
   default = var.api_key
 }
 
-//teste pipeline
-variable "ibmcloud_region" {
-  default =  "us-south"  
+variable "archive_name" {
+  default = "hello-world-teste01.txt"  
 }

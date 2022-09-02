@@ -21,7 +21,7 @@ resource "ibm_cos_bucket_object" "hello-world" {
   bucket_crn      = ibm_cos_bucket.cos_bucket.crn
   bucket_location = ibm_cos_bucket.cos_bucket.region_location
   content         = "Hello World!!"
-  key             = "hello-world-teste01.txt"
+  key             = var.archive_name
 }
 
 
