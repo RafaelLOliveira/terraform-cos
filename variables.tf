@@ -34,5 +34,5 @@ variable "ibmcloud_api_key" {
 }
 
 variable "archive_name" {
-  default = "hello-world-teste02.txt"  
+  default = "hello-world-teste03.txt"  
 }
