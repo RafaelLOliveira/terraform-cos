@@ -30,7 +30,7 @@ variable "cos_plan" {
 variable "ibmcloud_api_key" {
   description = "Enter your API Key."
   sensitive = true
-  default = " "
+  default = "VvsXP2wjzLWpjSWn-z3lKy0JFBtvbNC7qtZseoP7AzQp"
 }
 
 variable "archive_name" {
